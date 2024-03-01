@@ -35,6 +35,12 @@ public class Module3Servlet extends HttpServlet {
                     + "</td></tr>");
 
         out.println("</table>");
+        out.println(" <button>\n" +
+                " <- Предыдущий модуль\n" +
+                "  </button>\n" +
+                "  <button>\n" +
+                "Следующий модуль ->\n" +
+                "  </button>");
 
 
         out.println("</body></html>");

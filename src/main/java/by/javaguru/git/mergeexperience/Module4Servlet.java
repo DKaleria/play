@@ -23,6 +23,12 @@ public class Module4Servlet extends HttpServlet {
         PrintWriter out = response.getWriter();
         out.println("<html><body>");
         out.println("<h1>" + message + "</h1>");
+        out.println(" <button>\n" +
+                " <- Предыдущий модуль\n" +
+                "  </button>\n" +
+                "  <button>\n" +
+                "Следующий модуль ->\n" +
+                "  </button>");
         out.println("</body></html>");
     }
 
